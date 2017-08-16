@@ -1,3 +1,4 @@
-FROM silex/emacs:25
+FROM zenspider/alpine-ruby:2.4.1
 
-RUN apt-get update && apt-get install -y ruby
+RUN apk --update add emacs
+

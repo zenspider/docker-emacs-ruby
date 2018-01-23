@@ -1,4 +1,4 @@
-FROM zenspider/alpine-ruby:2.4.1
+FROM zenspider/alpine-ruby:latest
 
 RUN apk --update add emacs
 

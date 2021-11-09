@@ -1,5 +1,5 @@
 IMAGE_NAME = "zenspider/emacs-ruby"
-TAG_NAME   = "26.2_2.5.5p157_0"
+TAG_NAME   = "27.2_3.0.2p107_0"
 
 task :image do
   sh "docker build --squash --rm -t #{IMAGE_NAME}:#{TAG_NAME} ."
